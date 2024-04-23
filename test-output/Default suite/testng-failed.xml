@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_001_New_registration">
+      <class name="testCases.TC_007_ReceiveQRCode">
         <methods>
-          <include name="registrationAccount"/>
-          <include name="close"/>
-          <include name="setup"/>
+          <include name="register"/>
         </methods>
-      </class> <!-- testCases.TC_001_New_registration -->
+      </class> <!-- testCases.TC_007_ReceiveQRCode -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
